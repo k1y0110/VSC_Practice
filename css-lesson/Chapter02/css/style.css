@@ -1,0 +1,14 @@
+/* タイプセレクタ */
+li{
+        color: green;
+    }
+    
+    /* クラスセレクタ */
+    .music{
+        color: orange;
+    }
+    
+    /* IDセレクタ */
+    #bob{
+        color: brown;
+    }
