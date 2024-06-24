@@ -1,0 +1,11 @@
+@mixin box($red:false){
+    width: 200px;
+    height: 50px;
+    @if $red {
+        background-color: red;
+    }
+}
+
+.red-box{
+    @include box($red:true);
+}

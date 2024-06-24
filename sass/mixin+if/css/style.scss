@@ -1,0 +1,14 @@
+@import 'common';
+.btn{
+margin-bottom: 5px;
+
+&:last-child{
+    margin-bottom: 0;
+}
+
+@each $key, $value in $map {
+&.is-#{$key} {
+ @include btn($value);
+ }
+}
+}
