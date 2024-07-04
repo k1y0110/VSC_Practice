@@ -1,0 +1,47 @@
+body {
+  background-image: url(bgi.jpg);
+  background-size: cover;
+}
+
+.conteiner {
+  font-size: 0;
+  color: rgb(207, 183, 47);
+}
+
+.ttl {
+  text-align: center;
+}
+
+#board {
+  margin: 5rem auto;
+  width: 40rem;
+  height: 40rem;
+  background-color: black;
+  outline: 1.5rem solid;
+  outline-color: black;
+}
+
+.square {
+  width: 5rem;
+  height: 5rem;
+  background-color: green;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-size: 3rem;
+}
+.square[data-owner=black] {
+  color: black;
+}
+.square[data-owner=white] {
+  color: white;
+}
+
+.cant-select {
+  background-color: green !important;
+}
+
+#controller {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}/*# sourceMappingURL=style.css.map */
